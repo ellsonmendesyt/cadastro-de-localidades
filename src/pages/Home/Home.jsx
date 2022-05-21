@@ -4,7 +4,7 @@ import './Home.css';
 const Home = () => {
   return (
     <article>
-        <h2>Os melhores locais do Brasil para morar</h2>
+        <h2>Cadastraro de Pessoas e Lugares</h2>
         {/* <img src="./imgs/banner.png" alt="foto do jogo" /> */}
         {/* <video autoPlay src="./videos/video-2.mp4"></video> */}
 

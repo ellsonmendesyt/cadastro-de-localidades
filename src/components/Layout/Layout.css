@@ -3,11 +3,16 @@
 body{
     margin: 0;
     font-family: "Poppins",sans-serif;
+    /* background-color: #f7faf9 !important; */
+
+   background-image: url("./imgs/bg.png"), linear-gradient(#f4f0eb,#f4f0eb);
+   background-attachment: fixed;    
+   background-repeat: repeat;
+   background-size: contain;
 }
 .main-content{
     min-height: 90vh;
-    border-left: 1px solid #dadce0;
-    border-right: 1px solid #dadce0;
+    border: 1px solid #dadce0;
 }
 
 /*O container é composto por tres colunas de tamanhos diferentes*/
@@ -27,7 +32,7 @@ body{
 @media screen and (max-width:980px){
     .main-content{
         grid-column:span 3;
-        outline:2px dotted orange;
+        /* outline:2px dotted orange; */
     }   
 }
 
