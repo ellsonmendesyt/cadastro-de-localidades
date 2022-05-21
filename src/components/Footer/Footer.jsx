@@ -1,8 +1,9 @@
 import React from 'react'
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>Todos os direitos reservados</div>
+    <footer>Todos os direitos reservados</footer>
   )
 }
 

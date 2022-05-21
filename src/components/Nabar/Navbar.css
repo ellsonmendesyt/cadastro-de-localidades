@@ -1,0 +1,29 @@
+nav{
+    padding: 30px;
+    border-right: 1px solid #ddd;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+nav  a{
+    text-decoration: none;
+}
+
+@media (max-width:1200px){
+    nav{
+        grid-column:span 3;
+        border-right:0;
+        border-bottom:1px solid #ddd;
+        background-color: orange;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:980px){
+ nav{
+     grid-column:span 3;
+ }   
+}
