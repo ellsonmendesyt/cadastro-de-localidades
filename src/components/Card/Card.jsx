@@ -2,6 +2,7 @@ import React from 'react'
 import './Card.css';
 
 import {SlideBtn, SwitchBtn, VerticalDotsBtn} from '../../components/CustomButton/CustomBtns'
+import DropDown from '../DropDown';
 
 const Card = ({estado}) => {
     let color;
@@ -10,9 +11,8 @@ const Card = ({estado}) => {
     <div className='card'>
         <div className="card_header">
          
-         <h3 className='card_title'>{estado.nome}</h3>
-          {/* <SwitchBtn /> */}
-            <VerticalDotsBtn/>
+         <h3 className='card_title'>{estado.nome}</h3>            
+            <DropDown />
         </div>
        
         <div className="card_footer" >
