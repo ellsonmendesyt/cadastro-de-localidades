@@ -1,0 +1,9 @@
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    outline: 1px solid #777;
+    padding: 40px 30px;
+    background-color: #088475;
+    padding-top: 2rem;
+}
